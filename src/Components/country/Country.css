@@ -1,0 +1,227 @@
+th {
+  white-space: nowrap;
+}
+td {
+  white-space: nowrap;
+}
+.span-delete-heres {
+  font-size: 22px;
+  font-weight: 500;
+  margin-left: 1rem;
+}
+.flex-delete-popup-refunds {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.Two-img-popu-heres {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 4px solid #00073d;
+}
+.def-border-post {
+  border: 1px solid rgb(75, 75, 75);
+  height: 2px;
+  width: 80%;
+}
+.name-post-span {
+  font-size: 18px;
+  font-weight: 600;
+}
+.span-delete-sure-you {
+  font-size: 15px;
+  font-weight: 400;
+}
+.post-want-flex-yes {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+.post-want-flex-yes button {
+  width: 80px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+.pagination-def-Emails {
+  width: 80%;
+}
+.table_main_Divv {
+  margin-top: 7rem;
+  width: 80%;
+  height: 100%;
+}
+.Table_sec_divv {
+  width: 100%;
+  /* padding: 1rem; */
+  /* border: 1px solid lightgray; */
+  border-radius: 10px;
+}
+
+.Pagination_main_div {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+.View_button {
+  background-color: transparent;
+  border-radius: 25%;
+  width: 40px;
+  height: 40px;
+  background-color: #3dc65b;
+  border: none;
+  box-shadow: 0 2px 6px 0 rgb(218 218 253 / 65%),
+    0 2px 6px 0 rgb(206 206 238 / 54%);
+}
+.View_button:hover {
+  background-color: green;
+  color: white;
+  transition: all 0.3s ease-out;
+}
+.Edit_button {
+  background-color: transparent;
+  border-radius: 25%;
+  width: 40px;
+  height: 40px;
+  background-color: blue;
+  border: none;
+  box-shadow: 0 2px 6px 0 rgb(218 218 253 / 65%),
+    0 2px 6px 0 rgb(206 206 238 / 54%);
+}
+.Edit_button:hover {
+  background-color: blue;
+  color: white;
+  transition: all 0.3s ease-out;
+}
+.Delete_button {
+  background-color: transparent;
+  border-radius: 25%;
+  width: 40px;
+  height: 40px;
+  background-color: red;
+  border: none;
+  box-shadow: 0 2px 6px 0 rgb(218 218 253 / 65%),
+    0 2px 6px 0 rgb(206 206 238 / 54%);
+}
+.Delete_button:hover {
+  background-color: red;
+  color: white;
+  transition: all 0.3s ease-out;
+}
+.rounded-tr {
+  border-radius: 10px;
+}
+.Span_and_Serch_main_divv {
+  display: flex;
+  align-items: center;
+}
+.Input_tagg_password {
+  outline: none;
+  width: 220px;
+  height: 30px;
+  border: none;
+}
+.hr-secound-all-page {
+  border: 1px solid grey;
+  width: 100% !important;
+  height: 1px;
+}
+.hr-tag-dashboardes {
+  height: 40px;
+  border: 2px solid rgb(75, 75, 75);
+}
+.width-of-hr-tag {
+  width: 98%;
+}
+
+.bredCrumbs-css {
+  font-size: 22px;
+  color: #000;
+  font-weight: 600;
+}
+.three-ones {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.Employee_search_divv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+.diffrent-css-icons {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.Bread_crumb_textt:hover {
+  color: #008cff;
+}
+.Bread_crumb_textt {
+  color: grey;
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: none;
+}
+.NO_data_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 200px;
+}
+.noDATA_text {
+  font-size: 20px;
+  font-weight: 600;
+}
+.View_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border-radius: 25%;
+  width: 40px;
+  height: 40px;
+  background-color: #3dc65b;
+  border: none;
+  box-shadow: 0 2px 6px 0 rgb(218 218 253 / 65%),
+    0 2px 6px 0 rgb(206 206 238 / 54%);
+}
+.View_button:hover {
+  background-color: #3dc65b;
+  color: white;
+  transition: all 0.3s ease-out;
+}
+.Delete_button {
+  background-color: transparent;
+  border-radius: 25%;
+  width: 40px;
+  height: 40px;
+  background-color: red;
+  border: none;
+  box-shadow: 0 2px 6px 0 rgb(218 218 253 / 65%),
+    0 2px 6px 0 rgb(206 206 238 / 54%);
+}
+.Delete_button:hover {
+  background-color: red;
+  color: white;
+  transition: all 0.3s ease-out;
+}
+@media screen and (max-width: 884px) {
+  .table_main_Divv {
+    margin-left: 3.5rem;
+  }
+}
+@media screen and (max-width: 428px) {
+  .table_main_Divv {
+    margin-left: 3.5rem;
+    width: 81%;
+  }
+}

@@ -1,0 +1,115 @@
+.postdetail-main-cards {
+  display: flex;
+  width: 90%;
+  flex-direction: column;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 0 solid transparent;
+  border-radius: 0.25rem;
+  margin-bottom: 1.5rem;
+  /* box-shadow: 0 2px 6px 0 rgb(218 218 253 / 65%),
+    0 2px 6px 0 rgb(206 206 238 / 54%); */
+  box-shadow: 0 4px 8px 0 rgb(170 170 255 / 65%),
+    0 4px 8px 0 rgb(206 206 238 / 70%);
+  /* border-bottom: 4px solid #1ccbf0; */
+  align-items: center;
+  justify-content: center;
+  margin-top: 10rem;
+  /* gap: 4rem; */
+  padding: 2rem 2rem;
+}
+.background-imag-box {
+  background-image: url("https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  width: 100%;
+  background-color: red;
+  position: relative;
+  background-position: center;
+}
+.img-post-users-de {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: -2rem;
+}
+.post-users-img-heres {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 4px dotted #fff;
+}
+.Secound-background-imag-box {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  /* height: 300px; */
+  width: 100%;
+  /* margin-top: 2rem; */
+  /* box-shadow: 0 4px 8px 0 rgb(170 170 255 / 65%),
+    0 4px 8px 0 rgb(206 206 238 / 70%); */
+  /* background-color: red; */
+}
+.buton-between-flex-detail {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+  width: 100%;
+}
+.buton-between-flex-detail button {
+  width: 80px;
+  height: 40px;
+  background-color: #172a4d;
+  border: none;
+  outline: none;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.detail-profile-heres-def {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.all-profile-perticular-file {
+  display: flex;
+  gap: 3rem;
+}
+.name-spans {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.input-die-file-form {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.main-details-contents {
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin-top: 4rem;
+}
+/* New Add Css Final */
+.card-profile-detail-main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 0 solid transparent;
+  border-radius: 0.25rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 6px 0 rgb(218 218 253 / 65%),
+    0 2px 6px 0 rgb(206 206 238 / 54%);
+}
